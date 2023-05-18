@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "coeWdnwLuX9d6X+hVY6ArqrKN5lJqikgAu/XsFCJe+gtC5LkcFy/f5kLVqez2DA5lHWcTteThp3s2t8OmhV2ZQ==",
+  "success": true,
+  "projectFilePath": "/home/osmait/Documents/Practice/Algoritms/c#/c#.csproj",
+  "expectedPackageFiles": [
+    "/home/osmait/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
