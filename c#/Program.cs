@@ -7,5 +7,8 @@ string output = $"[{string.Join(", ", result)}]";
 
 Console.WriteLine(output);
 Console.WriteLine();
+Console.WriteLine(output);
 // Console.WriteLine(Anagram);
 // Console.WriteLine(containsDuplicate);
+
+
