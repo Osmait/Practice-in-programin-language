@@ -1,30 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddccb0ee-dcea-4ee6-a8eb-789f04197acc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../C/main" beforeDir="false" afterPath="$PROJECT_DIR$/../C/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../C/main.c" afterDir="false" />
+    <list default="true" id="c779e7cc-96e3-43a0-8f75-7087bb6690d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/Kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/Main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/dataStructuras/LinkedList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/leetCode/ContainDuplicate.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/leetCode/groupAnagrams.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin/src/main/kotlin/leetCode/isAnagram.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba/main.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rust/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../rust/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/deps/rust-1abf79eb8ca45c8f" beforeDir="false" afterPath="$PROJECT_DIR$/../rust/target/debug/deps/rust-1abf79eb8ca45c8f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1k6jfoznb8pxt/s-gl30eqwff2-8ozgtr-2o6npe3esdbnl/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1k6jfoznb8pxt/s-gl30eqwff2-8ozgtr-2o6npe3esdbnl/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1k6jfoznb8pxt/s-gl30eqwff2-8ozgtr-2o6npe3esdbnl/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1k6jfoznb8pxt/s-gl30eqwff2-8ozgtr.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/3bq963sdhub2hrej.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/46kc556t7bxkjzyv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/49vbqo8iio1xon13.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/4l8g1obhy8mrqo88.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/5ce1aae1fu3ay6lb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/5eka93bw02qwr2f9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/8j74159kxfr1846.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar-1ngvgefd7wif2/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1qpgz7y2cgktb/s-gl30eogye3-eemaar.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-34af961j7wnh6/s-gl30eqwgof-ul3xbt-25jo1o6c6podq/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-34af961j7wnh6/s-gl30eqwgof-ul3xbt-25jo1o6c6podq/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-34af961j7wnh6/s-gl30eqwgof-ul3xbt-25jo1o6c6podq/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-34af961j7wnh6/s-gl30eqwgof-ul3xbt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/.fingerprint/rust-4a3329407c9d3c2b/output-bin-rust" beforeDir="false" afterPath="$PROJECT_DIR$/../rust/target/debug/.fingerprint/rust-4a3329407c9d3c2b/output-bin-rust" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/deps/rust-4a3329407c9d3c2b" beforeDir="false" afterPath="$PROJECT_DIR$/../rust/target/debug/deps/rust-4a3329407c9d3c2b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1310xnnoeni1jw9h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/14l6x6x12h58ehz4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/14xbk2bwrp3fr1ql.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1a3vn223jat6jfsr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1c9kimwakzbut0jc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1hc3rkiy1xpa11gi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1nqmvqjblph539qx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1o4wy7j3tjy53zm2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1r565mpr7dk2zof3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1tg43x26e8ujf7e2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1ufia1yxa7fiksj3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1utit4oye6s1clss.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1v66he671i2zl5gp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1wxcebe33vaxb2d1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1ylid9sckndoc50z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/1ymin8027wdosnr3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/20xoxhgtt9ljz4vi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/22io8tk5zmkb5c67.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/240lpi6nvq5syz2r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/283pm9jt28zgdmq8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/284qtts3fqv13nav.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/28hzu2lgs8h0lit3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2fhqbnivzw6i4bx5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2l6dmrnnd9sdr61k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2lx62onapf8igt3e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2m4wm7vwpm8u4xnn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2ok2k260l5kmlxqc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2rbr6k2bh6f0t9rg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2rh5p2u57d66bio3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2rqqthnodaoxlddp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2wsef08x7uljf4m6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/2zta1xv7hssbo7bw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/31dpaidogd1vs54b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3686t7qd242wni54.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/37o35g3ktzzdtk4v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3cd205d4xom9x0gn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3f1a3dcg544ri80c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3i9qnb99smvvgijw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3ko612qo1u2aimly.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3o7lznso8lcir7fs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3smfo3s1qhvc5vjb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/3txiw0m04u0i6h4t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/40reelr8d19aqp8d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/45cn1coqvtkrfwiu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/45qkhhnj70i9osx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/4aza6ddsr5b3x5wc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/4h8a4oyxuzajnl6t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/4m2ffdc7g5z21wom.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/4zo3bzs1vb3pyixg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/524uzs3hmm1d22r3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/53mjkwrlms4zis43.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/55evkfgopv0dmed4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/56txjfulclxwdv55.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/57ag1x1h1zc5q09o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/5dh5gybp21lpxxab.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/5g2pi17empeqh7ua.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/ax0sk4vi8h0favo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/btqph0p29f04kpe.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/fye7ds2r8fub7d6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/g0nzyk742krlbus.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/h6muhjpzuy3pd57.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/ietuuk8jkn0fsyv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/tedjyzpf3hi8kqq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/tpdczm7fxukhr14.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/uwx502ulhfypmsq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/wactb4a6fi5dwz7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6-2qzty116obw90/yfg0un3pmk96s06.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-1utpbuwm99wu9/s-gm0etp46mj-18l8bu6.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-3ukr0rm33264c/s-gm0etnswwu-1ay9fbn-3bfiits92mw68/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-3ukr0rm33264c/s-gm0etnswwu-1ay9fbn-3bfiits92mw68/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-3ukr0rm33264c/s-gm0etnswwu-1ay9fbn-3bfiits92mw68/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-3ukr0rm33264c/s-gm0etnswwu-1ay9fbn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-9gk49419x8we/s-gm0etnt58w-1xw2rlc-r292ctmk4wyh/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-9gk49419x8we/s-gm0etnt58w-1xw2rlc-r292ctmk4wyh/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-9gk49419x8we/s-gm0etnt58w-1xw2rlc-r292ctmk4wyh/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/target/debug/incremental/rust-9gk49419x8we/s-gm0etnt58w-1xw2rlc.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rust/target/debug/rust" beforeDir="false" afterPath="$PROJECT_DIR$/../rust/target/debug/rust" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +115,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2Pyy2TTXtKpCORq7MKCq8gm2MQX" />
+  <component name="ProjectId" id="2RMT9spepSI9um26tMTjarymuXp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/osmait/Documents/Practice/Algoritms/kotlin"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ddccb0ee-dcea-4ee6-a8eb-789f04197acc" name="Changes" comment="" />
-      <created>1684443409037</created>
+      <changelist id="c779e7cc-96e3-43a0-8f75-7087bb6690d4" name="Changes" comment="" />
+      <created>1687058806066</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684443409037</updated>
+      <updated>1687058806066</updated>
     </task>
     <servers />
   </component>

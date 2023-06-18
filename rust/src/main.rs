@@ -60,7 +60,8 @@ async fn main() -> Result<(), Error> {
     // }
     let r = calculate(10, 20);
     let range = 10..=20;
-    println!("{:?}", range);
+    range.for_each(|x| println!("{}", x));
+
     println!("{}", r);
 
     let response = reqwest::get("https://dummyjson.com/products/1").await?;
