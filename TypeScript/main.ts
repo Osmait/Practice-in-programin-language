@@ -25,7 +25,7 @@ const comparar = (
       return true;
     }
     if (mapa_diccionario[palabra1[i]] > mapa_diccionario[palabra2[i]]) {
-      return false;
+           return false;
     }
   }
   return palabra1.length <= palabra2.length;
