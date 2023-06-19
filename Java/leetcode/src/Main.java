@@ -10,27 +10,53 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import leetCode.Fetch;
+import sort.Sorting;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        List<Integer> listInt = new ArrayList<>();
+        listInt.add(10);
+        listInt.add(5);
+        listInt.add(3);
+        listInt.add(1);
+
+        System.out.println(Sorting.mergeSort(listInt));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Fetch fetch = new Fetch();
 
-        File file = new File("Java/leetcode/src/product2.json");
-        // File file2 = new File("Java/leetcode/src/product2.json");
+        // File file = new File("Java/leetcode/src/product2.json");
+        // // File file2 = new File("Java/leetcode/src/product2.json");
 
-        try {
-            Scanner sc = new Scanner(file);
-            // StringBuilder info = new StringBuilder();
-            while (sc.hasNextLine()) {
-                System.out.println(sc.nextLine());
-            }
-            // FileWriter fs = new FileWriter(file2);
-            // fs.write(fetch.get());
-            // fs.close();
-            sc.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        // try {
+        //     Scanner sc = new Scanner(file);
+        //     // StringBuilder info = new StringBuilder();
+        //     while (sc.hasNextLine()) {
+        //         System.out.println(sc.nextLine());
+        //     }
+        //     // FileWriter fs = new FileWriter(file2);
+        //     // fs.write(fetch.get());
+        //     // fs.close();
+        //     sc.close();
+        // } catch (Exception e) {
+        //     e.printStackTrace();
+        // }
 
     }
 

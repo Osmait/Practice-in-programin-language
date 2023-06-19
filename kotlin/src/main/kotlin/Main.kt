@@ -1,5 +1,7 @@
 
 import kotlinx.serialization.json.Json
+import sort.mergeSort
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -10,6 +12,10 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
+
+    val listUnOrd = arrayOf(10,5,4,6,2)
+    mergeSort(listUnOrd,0,listUnOrd.size -1)
+    println(listUnOrd.joinToString())
     val apiUrl = "https://dummyjson.com/products/1"
 
     // Hacer la petición GET

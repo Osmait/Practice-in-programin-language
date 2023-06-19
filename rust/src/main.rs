@@ -1,4 +1,5 @@
 mod leetcode;
+mod sort;
 
 // use std::fs;
 
@@ -30,6 +31,10 @@ impl fmt::Display for Products {
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
+    let mut res = vec![10, 8, 4, 3, 1, 9, 2, 7, 5, 6];
+    sort::merger_sort::top_down_merge_sort(&mut res);
+    println!("{:?}", res);
+
     // let s = String::from("anagram");
     // let t = String::from("nagaram");
     // let result = contain_duplicate::contain_duplicate(vec![1, 2, 3, 1]);
