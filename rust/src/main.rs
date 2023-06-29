@@ -1,25 +1,25 @@
-mod dataStructure;
+mod data_structure;
 mod leetcode;
 mod sort;
-mod utils;
+// mod utils;
 use crate::leetcode::contain_duplicate;
 use crate::leetcode::is_anagram;
 use std::fs;
 
 fn main() {
-    let mut queue = dataStructure::queue::Queue::<i32>::new();
+    let mut queue = data_structure::queue::Queue::<i32>::new();
     queue.enqueu(1);
     queue.enqueu(2);
     queue.enqueu(3);
     println!("{:?}", queue);
     let mut res = vec![10, 8, 4, 3, 1, 9, 2, 7, 5, 6];
-    sort::quick_sort::quick_sort(&mut res);
+    sort::merger_sort::top_down_merge_sort(&mut res);
     println!("{:?}", res);
-    match utils::fetch::fetch() {
-        Ok(products) => println!("{:?}", products),
-        Err(error) => println!("{}", error),
-    }
-
+    // match utils::fetch::fetch() {
+    //     Ok(products) => println!("{:?}", products),
+    //     Err(error) => println!("{}", error),
+    // }
+    //
     let s = String::from("anagram");
     let t = String::from("nagaram");
     let result = contain_duplicate::contain_duplicate(vec![1, 2, 3, 1]);

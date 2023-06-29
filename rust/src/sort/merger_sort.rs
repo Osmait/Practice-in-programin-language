@@ -1,4 +1,4 @@
-fn merger<T: Ord + Copy>(arr: &mut [T], mid: usize) {
+pub fn merger<T: Ord + Copy>(arr: &mut [T], mid: usize) {
     let left_half = arr[..mid].to_vec();
 
     let right_halt = arr[mid..].to_vec();
