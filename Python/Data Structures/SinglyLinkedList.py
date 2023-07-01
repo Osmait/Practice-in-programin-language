@@ -11,6 +11,7 @@ class LinkedList:
 
     def __init__(self):
         self.head = None
+        self.length = 0
 
     def __iter__(self):
         node = self.head
@@ -19,7 +20,7 @@ class LinkedList:
             node = node.next
 
     def __len__(self):
-        return sum(1 for _ in self)
+        return self.length
 
     def __repr__(self):
         return "->".join(str(node) for node in self)

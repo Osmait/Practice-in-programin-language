@@ -1,13 +1,29 @@
 mod data_structure;
+mod desing_patters;
 mod leetcode;
 mod sort;
+use crate::desing_patters::repository;
+use crate::desing_patters::repository::UserRepository;
 // mod utils;
 use crate::leetcode::contain_duplicate;
 use crate::leetcode::is_anagram;
 use std::fs;
 
 fn main() {
+    let mut list = data_structure::linked_list::LinkedList::<i32>::new();
+    list.insert_at_head(1);
+    list.insert_at_ith(1, 2);
+
+    println!("{:?}", list);
+
+    let mut repository1 = repository::ImplRepository::new();
+    let dato = String::from("hola");
+    let dato2 = String::from("prueba");
+    repository1.save(dato2);
+    repository1.save(dato);
     let mut queue = data_structure::queue::Queue::<i32>::new();
+    let list = repository1.find();
+    println!("{:?}", list);
     queue.enqueu(1);
     queue.enqueu(2);
     queue.enqueu(3);
