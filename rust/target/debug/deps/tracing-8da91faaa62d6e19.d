@@ -1,0 +1,13 @@
+/home/osmait/Documents/Practice/Algoritms/rust/target/debug/deps/tracing-8da91faaa62d6e19.rmeta: /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/lib.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/macros.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/dispatcher.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/field.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/instrument.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/level_filters.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/span.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/stdlib.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/subscriber.rs
+
+/home/osmait/Documents/Practice/Algoritms/rust/target/debug/deps/tracing-8da91faaa62d6e19.d: /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/lib.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/macros.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/dispatcher.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/field.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/instrument.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/level_filters.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/span.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/stdlib.rs /home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/subscriber.rs
+
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/lib.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/macros.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/dispatcher.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/field.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/instrument.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/level_filters.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/span.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/stdlib.rs:
+/home/osmait/.cargo/registry/src/github.com-1ecc6299db9ec823/tracing-0.1.37/src/subscriber.rs:

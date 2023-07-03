@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"strconv"
-
-	readyaml "github.com/osmait/algoritms/readYaml"
+	// "os"
+	// "strconv"
+	//
+	// readyaml "github.com/osmait/algoritms/readYaml"
 )
 
 const (
@@ -13,19 +13,19 @@ const (
 )
 
 func main() {
-
-	args := os.Args
-
-	fmt.Println(0)
-
-	num, err := strconv.Atoi(args[2])
-	if err != nil {
-		fmt.Println(err.Error())
-	}
-	
-
-	readyaml.ReadYAml(num)
-
+	fmt.Println("hello")
+	//
+	// args := os.Args
+	//
+	// fmt.Println(0)
+	//
+	// num, err := strconv.Atoi(args[2])
+	// if err != nil {
+	// 	fmt.Println(err.Error())
+	// }
+	//
+	// readyaml.ReadYAml(num)
+	//
 	// array := []int{10, 3, 4, 1, 5}
 	// result := sort.ParallelMerge(array)
 	// fmt.Println(result)
@@ -68,5 +68,3 @@ func main() {
 // 	array := []int{10, 3, 4, 1, 5}
 // 	result := sort.Mergesort(array)
 // 	fmt.Println(result)
-
-// }

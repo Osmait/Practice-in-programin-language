@@ -19,15 +19,15 @@ const comparar = (
   palabra2: string,
   mapa_diccionario: Map<string, number>
 ): boolean => {
-     const longitud = Math.min(palabra1.length, palabra2.length);
+  const longitud = Math.min(palabra1.length, palabra2.length);
   for (let i = 0; i < longitud; i++) {
     if (mapa_diccionario[palabra1[i]] < mapa_diccionario[palabra2[i]]) {
       return true;
     }
     if (mapa_diccionario[palabra1[i]] > mapa_diccionario[palabra2[i]]) {
-           return false;
+      return false;
     }
   }
   return palabra1.length <= palabra2.length;
 };
- 
+

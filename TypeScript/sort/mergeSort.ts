@@ -31,4 +31,6 @@ function merge(left: number[], right: number[]): number[] {
   return result;
 }
 
-mergeSort([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+console.log(mergeSort([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
+
