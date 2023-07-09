@@ -1,4 +1,5 @@
-def containsDuplicate(nums):
+def containsDuplicate(nums:list[int]):
+
 
     hashset = set()
     for n in nums:
@@ -6,3 +7,4 @@ def containsDuplicate(nums):
             return True
         hashset.add(n)
     return False
+

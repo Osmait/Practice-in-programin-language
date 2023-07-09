@@ -17,10 +17,10 @@ func (u *User) ToString() string {
 	return fmt.Sprintf("UserId: %d, Id: %d, Title: %s, Completed: %t", u.UseId, u.Id, u.Title, u.Completed)
 }
 
-func Fetch(api string) (*User, error) {
+func Fetch(url string) (*User, error) {
 
 	var user User
-	rep, err := http.Get(api)
+	rep, err := http.Get(url)
 
 	json.NewDecoder(rep.Body).Decode(&user)
 
