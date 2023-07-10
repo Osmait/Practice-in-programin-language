@@ -7,6 +7,7 @@ mod tests {
         remove_duplicate::remove_duplicate,
         remove_duplicateII::remove_duplicateII,
         remove_element::remove_element,
+        rotare_array::rotare_array,
     };
 
     #[test]
@@ -60,5 +61,14 @@ mod tests {
         assert_eq!(p, 3);
         assert_eq!(k, 3);
         assert_eq!(n, 3);
+    }
+
+    #[test]
+    fn test_rotare_array() {
+        let mut nums = vec![1, 2];
+        let k = 3;
+        rotare_array(&mut nums, k);
+        println!("{:?}", nums);
+        assert_eq!(nums, vec![2, 1])
     }
 }
