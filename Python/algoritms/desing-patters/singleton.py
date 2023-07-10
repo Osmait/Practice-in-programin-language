@@ -2,7 +2,7 @@ from typing import Any
 
 
 class SingletonMeta(type):
-    _instances={}
+    _instances:dict={}
     def __call__(self, *args: Any, **kwds: Any) -> Any:
         if self not in self._instances:
             isinstance = super().__call__(*args, **kwds)

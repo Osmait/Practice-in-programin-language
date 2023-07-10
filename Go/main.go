@@ -69,7 +69,3 @@ func main() {
 
 }
 
-// func main() {
-// 	array := []int{10, 3, 4, 1, 5}
-// 	result := sort.Mergesort(array)
-// 	fmt.Println(result)
