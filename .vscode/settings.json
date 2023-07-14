@@ -36,5 +36,6 @@
         "type_traits": "cpp",
         "utility": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "deno.enable": true
 }
