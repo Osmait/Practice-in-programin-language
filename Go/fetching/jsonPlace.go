@@ -21,8 +21,10 @@ func Fetch(url string) (*User, error) {
 
 	var user User
 	rep, err := http.Get(url)
-
-	json.NewDecoder(rep.Body).Decode(&user)
+	if err != nil {
+		return nil, err
+	}
+	err = json.NewDecoder(rep.Body).Decode(&user)
 
 	if err != nil {
 		return nil, err

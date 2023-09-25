@@ -30,4 +30,3 @@ const comparar = (
   }
   return palabra1.length <= palabra2.length;
 };
-
