@@ -49,13 +49,10 @@ func ReadYAml(num int) {
 
 	fontConfig.Font.Size = int64(num)
 	modif, err := yaml.Marshal(&fontConfig)
-	if err != nil {
-		log.Fatal("Error Guardando ")
-	}
-	err = ioutil.WriteFile(filePath, modif, 0644)
+	ioutil.WriteFile(filePath, modif, 0644)
 
 	if err != nil {
-		log.Fatalf("Error al escribir  el archivo %v", err)
+		log.Fatalf("Error al guardar el archivo %v", err)
 	}
 	fmt.Println("Archivo guardado exitosamente.")
 
