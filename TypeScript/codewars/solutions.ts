@@ -1,3 +1,22 @@
+function firstNonConsecutiv(arr: number[]): number | null {
+  for (let i = 0; i < arr.length; i++) {
+    const current = arr[i] + 1;
+    if (i < arr.length - 1) {
+      const next = arr[i + 1];
+      if (current != next) {
+        return next;
+      }
+    }
+  }
+  return null;
+}
+
+console.log(firstNonConsecutiv([1, 2, 3, 4, 6, 7, 8]));
+
+function nameShuffler(s: string): string {
+  return s.split(" ").reverse().join(" ");
+}
+
 function GetSum(a: number, b: number): number {
   return Number(((a + b) * (Math.abs(a - b) + 1)) / 2);
 }

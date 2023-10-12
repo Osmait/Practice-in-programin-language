@@ -1,3 +1,23 @@
+
+def name_shuffler(arr:list[int])-> int | None:
+    for i,v in enumerate(arr):
+        current = v +1 
+        if i < len(arr)-1:
+            print(v)
+            next = arr[i+1]
+            if current != next:
+                return next
+    
+    return None
+
+
+print(name_shuffler([1,2,3,4,5,6,8]))
+
+def nameShuffler(s:str)->str:
+   return " ".join(s.split(" ")[::-1])
+
+print(nameShuffler("saul burgos"))
+
 def GetSum(a, b):
     return int((a+b) * (abs(a-b)+1) / 2)
 

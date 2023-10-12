@@ -3,7 +3,28 @@ package codewars
 import (
 	"fmt"
 	"math"
+	"strings"
 )
+
+func FirstNonConsecutiv(arr []int) *int {
+	for i, v := range arr {
+		current := v + 1
+		if i < len(arr)-1 {
+			next := arr[i+1]
+			if current != next {
+				return &next
+			}
+		}
+
+	}
+	return nil
+}
+
+func name_shuffler(s string) string {
+	list := strings.Split(s, " ")
+	return fmt.Sprintf("%s %s", list[1], list[0])
+
+}
 
 func GetSum(a int, b int) int {
 
