@@ -23,18 +23,15 @@ func FirstNonConsecutiv(arr []int) *int {
 func name_shuffler(s string) string {
 	list := strings.Split(s, " ")
 	return fmt.Sprintf("%s %s", list[1], list[0])
-
 }
 
 func GetSum(a int, b int) int {
-
 	return (a+b)*int(math.Abs(float64(b-a))) + 1/2
 }
 
 func SimpleMultiplication(n int) int {
 	if n%2 == 0 {
 		return n * 8
-
 	}
 	return n * 9
 }
@@ -62,7 +59,6 @@ func rowWeights(array []int) (int, int) {
 	}
 
 	return sum1, sum2
-
 }
 
 func PredictAge(ages ...int) int {
@@ -133,7 +129,6 @@ func CalculateYears(year int) (result [3]int) {
 		return
 	} else if year == 1 {
 		return [3]int{1, 15, 15}
-
 	} else if year == 2 {
 		return [3]int{2, 24, 24}
 	} else {
@@ -141,7 +136,6 @@ func CalculateYears(year int) (result [3]int) {
 		dogYears := 24 + 5*(year-2)
 		return [3]int{year, catYears, dogYears}
 	}
-
 }
 
 func hero(bullets, dragons int) bool {

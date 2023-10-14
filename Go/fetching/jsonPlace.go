@@ -18,7 +18,6 @@ func (u *User) ToString() string {
 }
 
 func Fetch(url string) (*User, error) {
-
 	var user User
 	rep, err := http.Get(url)
 	if err != nil {
@@ -32,5 +31,4 @@ func Fetch(url string) (*User, error) {
 	defer rep.Body.Close()
 
 	return &user, nil
-
 }

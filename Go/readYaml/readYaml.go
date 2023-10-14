@@ -14,11 +14,11 @@ type FontConfig struct {
 }
 
 type Font struct {
-	Normal     Normal `yaml:"normal"`
-	Bold       Bold   `yaml:"bold"`
-	Italic     Bold   `yaml:"italic"`
-	BoldItalic Bold   `yaml:"bold_italic"`
-	Size       int64  `yaml:"size"`
+	Normal     Normal `yaml:"normal" json:"normal"`
+	Bold       Bold   `yaml:"bold" json:"bold"`
+	Italic     Bold   `yaml:"italic" json:"italic"`
+	BoldItalic Bold   `yaml:"bold_italic" json:"bold_italic"`
+	Size       int64  `yaml:"size" json:"size"`
 }
 
 type Bold struct {
@@ -58,5 +58,4 @@ func ReadYAml(num int) {
 		log.Fatalf("Error al escribir  el archivo %v", err)
 	}
 	fmt.Println("Archivo guardado exitosamente.")
-
 }

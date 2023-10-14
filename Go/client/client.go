@@ -13,6 +13,7 @@ func main() {
 	if err != nil {
 		fmt.Println("Error connecting to server:", err.Error())
 		os.Exit(1)
+
 	}
 	defer conn.Close()
 
