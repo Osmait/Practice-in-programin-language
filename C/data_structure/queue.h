@@ -2,10 +2,9 @@
 
 #define __QUEUE__
 
-typedef struct Node
-{
-    int value;
-    struct Node *next;
+typedef struct Node {
+  int value;
+  struct Node *next;
 } Node;
 
 Node *createNode();
