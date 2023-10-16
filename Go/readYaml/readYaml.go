@@ -2,7 +2,6 @@ package readyaml
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 
@@ -18,7 +17,7 @@ type Font struct {
 	Bold       Bold   `yaml:"bold" json:"bold"`
 	Italic     Bold   `yaml:"italic" json:"italic"`
 	BoldItalic Bold   `yaml:"bold_italic" json:"bold_italic"`
-	Size       int64  `yaml:"size" json:"size"`
+	Size       int    `yaml:"size" json:"size"`
 }
 
 type Bold struct {
@@ -35,7 +34,7 @@ func ReadYAml(num int) {
 	fmt.Println(dir)
 	filePath := "./fond.yaml"
 
-	yamlFoile, err := ioutil.ReadFile(filePath)
+	yamlFoile, err := os.ReadFile(filePath)
 	if err != nil {
 		log.Fatalf("Error al leer el archivo: %v", err)
 	}
@@ -47,12 +46,12 @@ func ReadYAml(num int) {
 		log.Fatalf("Error deserializando el YAMl: %v", err)
 	}
 
-	fontConfig.Font.Size = int64(num)
+	fontConfig.Font.Size = int(num)
 	modif, err := yaml.Marshal(&fontConfig)
 	if err != nil {
 		log.Fatal("Error Guardando ")
 	}
-	err = ioutil.WriteFile(filePath, modif, 0644)
+	err = os.WriteFile(filePath, modif, 0644)
 
 	if err != nil {
 		log.Fatalf("Error al escribir  el archivo %v", err)

@@ -58,13 +58,10 @@ func main() {
 		t := <-c
 		if t == "err" {
 			fmt.Println("Error")
-
 		} else {
-
 			fmt.Println(t)
 		}
 	}
 	defer close(c)
 	fmt.Printf("Tiempo Concurrente %v\n", final)
-
 }
