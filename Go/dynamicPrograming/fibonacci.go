@@ -6,6 +6,7 @@ func Matrix(n uint) uint {
 	d, rd := 0, 1
 
 	for n != 0 {
+
 		if n&1 == 1 {
 			tc = rc
 			rc = rc*a + rd*c
