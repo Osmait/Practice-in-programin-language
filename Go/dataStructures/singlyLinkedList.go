@@ -91,7 +91,6 @@ func (s *Singly[T]) DelByPos(pos int) (T, bool) {
 	prev.Next = cur.Next
 	s.length--
 	return val, true
-
 }
 
 func (s *Singly[T]) Count() int {
