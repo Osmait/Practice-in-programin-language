@@ -1,5 +1,7 @@
 import unittest
-def array_rotare(nums:list[int],k:int)-> None:
+
+
+def array_rotare(nums: list[int], k: int) -> None:
     n = len(nums)
     k = k % n  # Ajustar k si es mayor que la longitud de la lista
     reverse(nums, 0, n - 1)  # Invertir toda la lista
@@ -17,10 +19,11 @@ def reverse(nums, start, end) -> None:
 class TestRotareArray(unittest.TestCase):
 
     def test_rotate(self):
-        nums = [1,2]
-        k= 3
-        array_rotare(nums,k)
-        self.assertEqual(nums,[2,1])
+        nums = [1, 2]
+        k = 3
+        array_rotare(nums, k)
+        self.assertEqual(nums, [2, 1])
+
 
 if __name__ == "__main__":
     unittest.main()
