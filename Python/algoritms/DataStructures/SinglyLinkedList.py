@@ -10,7 +10,7 @@ class Node:
 class LinkedList:
 
     def __init__(self):
-        self.head = None
+        self.head: Node | None = None
         self.length = 0
 
     def __iter__(self):
@@ -38,7 +38,7 @@ class LinkedList:
     def __setitem__(self, index, data):
         if not 0 <= index < len(self):
             raise IndexError("Index out of range")
-        current = self.head
+        current: Node | None = self.head
         for _ in range(index):
             current = current.next
         current.data = data
@@ -107,9 +107,6 @@ if __name__ == "__main__":
 
     print(len(linkedList))
     print(linkedList)
-    print(linkedList.delete_head())
-    print(linkedList)
     print(linkedList.insert_head(5))
-    print(linkedList.insert_nth(2, 4))
 
     print(linkedList)
