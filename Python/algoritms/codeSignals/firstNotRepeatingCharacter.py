@@ -17,3 +17,10 @@ def solution(s: str) -> str:
 
 
 print(solution("abacabad"))
+
+
+def solucion2(s: str) -> str:
+    for c in s:
+        if s.index(c) == s.rindex(c):
+            return c
+    return '_'
