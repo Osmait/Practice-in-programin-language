@@ -5,7 +5,6 @@ import (
 )
 
 func TestSolution(t *testing.T) {
-
 	result := name_shuffler("saul Burgos")
 	expecte := "Burgos saul"
 	if expecte != result {
