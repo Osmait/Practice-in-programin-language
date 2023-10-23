@@ -38,7 +38,7 @@ class LinkedList:
     def __setitem__(self, index, data):
         if not 0 <= index < len(self):
             raise IndexError("Index out of range")
-        current: Node | None = self.head
+        current = self.head
         for _ in range(index):
             current = current.next
         current.data = data
