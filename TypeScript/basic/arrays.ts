@@ -51,3 +51,57 @@ console.log(sortedNumbers);
 combinedNumbers.forEach((number) => {
   console.log(number);
 });
+
+
+// Método .every() - Verificar si todos los elementos cumplen una condición
+const allEven = numbers.every((number) => number % 2 === 0);
+console.log(allEven); // false
+
+// Método .some() - Verificar si al menos un elemento cumple una condición
+const hasEven = numbers.some((number) => number % 2 === 0);
+console.log(hasEven); // true
+
+// Método .find() - Encontrar el primer elemento que cumple una condición
+const firstEven = numbers.find((number) => number % 2 === 0);
+console.log(firstEven); // 2
+
+// Método .findIndex() - Encontrar el índice del primer elemento que cumple una condición
+const firstEvenIndex = numbers.findIndex((number) => number % 2 === 0);
+console.log(firstEvenIndex); // 1
+
+// Método .includes() - Verificar si un valor está presente en el array
+const includesThree = numbers.includes(3);
+console.log(includesThree); // true
+
+
+// Clonar un array
+const originalArray = [1, 2, 3];
+const clonedArray = [...originalArray];
+console.log(clonedArray); // [1, 2, 3]
+console.log(originalArray === clonedArray); // false (no son la misma referencia)
+
+// Combinar varios arrays
+const array1 = [1, 2];
+const array2 = [3, 4];
+const combinedArray = [...array1, ...array2];
+console.log(combinedArray); // [1, 2, 3, 4]
+
+// Agregar elementos a un array
+const initialArray = [1, 2, 3];
+const newArray = [...initialArray, 4, 5];
+console.log(newArray); // [1, 2, 3, 4, 5]
+
+// Copiar y modificar elementos de un array
+
+const modifiedNumbers = [...numbers.slice(0, 1), 4, ...numbers.slice(2)];
+console.log(modifiedNumbers); // [1, 4, 3]
+
+// Desestructurar un array
+const [first, ...rest] = [1, 2, 3, 4];
+console.log(first); // 1
+console.log(rest); // [2, 3, 4]
+
+// Convertir una cadena en un array de caracteres
+const str = "hello";
+const charArray = [...str];
+console.log(charArray); // ["h", "e", "l", "l", "o"]la misma referencia)
