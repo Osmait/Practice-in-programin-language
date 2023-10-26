@@ -68,3 +68,7 @@ my_default_dict = defaultdict(int)  # Valor predeterminado para enteros
 
 # Usar OrderedDict para mantener el orden de las claves
 ordered_dict = OrderedDict()
+my_dict = {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Ejemplo'}
+# my_function(**my_dict)
+my_list = [1, 2, 3, 4, 5]
+a, b, *rest = my_list
