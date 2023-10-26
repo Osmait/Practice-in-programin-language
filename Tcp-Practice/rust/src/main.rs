@@ -1,6 +1,6 @@
-use std::io::{Read, Write};
-use std::net::{TcpStream, TcpListener};
 use std::fs::OpenOptions;
+use std::io::{Read, Write};
+use std::net::{TcpListener, TcpStream};
 
 use std::thread;
 
@@ -18,22 +18,21 @@ fn handle_client(mut stream: TcpStream) {
         // Imprimir el mensaje recibido
         println!("Mensaje recibido: {}", received_message);
 
-         // Abrir el archivo en modo de "append"
-         let mut file = OpenOptions::new()
-         .create(true)
-         .append(true)
-         .open("mensaje.json")
-         .expect("No se pudo abrir el archivo");
+        // Abrir el archivo en modo de "append"
+        let mut file = OpenOptions::new()
+            .create(true)
+            .append(true)
+            .open("mensaje.json")
+            .expect("No se pudo abrir el archivo");
 
-
-     // Escribir el mensaje en el archivo
-     if let Err(e) = writeln!(file, "{}", received_message) {
-         eprintln!("Error al escribir en el archivo: {}", e);
-     }
+        // Escribir el mensaje en el archivo
+        if let Err(e) = writeln!(file, "{}", received_message) {
+            eprintln!("Error al escribir en el archivo: {}", e);
+        }
     }
 }
 
-fn main()  {
+fn main() {
     // Crear un servidor TCP que escucha en localhost:8080
     let listener = TcpListener::bind("127.0.0.1:8080").expect("Error conexion");
     println!("Servidor escuchando en 127.0.0.1:8080...");
@@ -51,6 +50,4 @@ fn main()  {
             }
         }
     }
-
-    
 }

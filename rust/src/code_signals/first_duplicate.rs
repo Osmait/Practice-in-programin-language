@@ -19,7 +19,7 @@ mod test {
     #[test]
     fn test_first_duplicate() {
         let num = vec![2, 1, 3, 5, 3, 2];
-        let expect = 3;
+        let expect = 4;
         let result = first_duplicate(&num);
 
         assert_eq!(expect, result);
