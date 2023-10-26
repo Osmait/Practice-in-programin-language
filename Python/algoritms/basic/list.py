@@ -1,3 +1,4 @@
+from functools import reduce
 # Crear una lista
 my_list = [1, 2, 3, 4, 5]
 
@@ -53,3 +54,38 @@ combined_list = my_list + another_list  # Concatenar dos listas
 
 # Encontrar la longitud de la lista
 length = len(my_list)  # Devuelve la cantidad de elementos en la lista
+
+# Ejemplo de lista
+numbers = [1, 2, 3, 4, 5]
+
+# Map: Aplicar una función a cada elemento de la lista
+squared = list(map(lambda x: x**2, numbers))
+# Resultado: [1, 4, 9, 16, 25]
+
+# Filter: Filtrar elementos de la lista
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+# Resultado: [2, 4]
+
+# Reduce: Aplicar una función acumulativa a la lista para reducirla a un solo valor
+product = reduce(lambda x, y: x * y, numbers)
+# Resultado: 120 (1 * 2 * 3 * 4 * 5)
+
+# all: Comprobar si todos los elementos de la lista cumplen una condición
+all_even = all(x % 2 == 0 for x in numbers)
+# Resultado: False (no todos los números son pares)
+
+# any: Comprobar si al menos un elemento de la lista cumple una condición
+any_odd = any(x % 2 != 0 for x in numbers)
+# Resultado: True (al menos un número es impar)
+
+# sorted: Ordenar la lista
+sorted_numbers = sorted(numbers)
+# Resultado: [1, 2, 3, 4, 5]
+
+# max: Encontrar el valor máximo en la lista
+maximum = max(numbers)
+# Resultado: 5
+
+# min: Encontrar el valor mínimo en la lista
+minimum = min(numbers)
+# Resultado: 1
