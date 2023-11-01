@@ -41,4 +41,4 @@ integer = int(3.5)
 float_number = float(5)
 
 # Números complejos
-complex_number = 3 + 2j
+complex_number = 3 + 2

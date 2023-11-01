@@ -8,6 +8,7 @@ mod tests {
         remove_duplicateII::remove_duplicateII,
         remove_element::remove_element,
         rotare_array::rotare_array,
+        twoSum::two_sum,
     };
 
     #[test]
@@ -26,30 +27,30 @@ mod tests {
         let val = 3;
         let k = remove_element(&mut nums, val);
         let exptect = 2;
-        let expected_nums = vec![2, 2];
+        let expected_nums = [2, 2];
         assert_eq!(k, exptect);
         for i in 0..k {
-            assert_eq!(nums[i as usize], expected_nums[i as usize])
+            assert_eq!(nums[i], expected_nums[i])
         }
     }
     #[test]
     fn test_remove_duplicate() {
         let mut nums = vec![1, 1, 2, 2];
-        let expect = vec![1, 2];
+        let expect = [1, 2];
         let k = remove_duplicate(&mut nums);
-        assert_eq!(k, 2 as usize);
+        assert_eq!(k, 2);
         for i in 0..k {
-            assert_eq!(nums[i as usize], expect[i as usize])
+            assert_eq!(nums[i], expect[i])
         }
     }
     #[test]
     fn test_remove_duplicate_ii() {
         let mut nums = vec![1, 1, 1, 2, 2, 3];
-        let expect_vec = vec![1, 1, 2, 2, 3];
+        let expect_vec = [1, 1, 2, 2, 3];
         let k = remove_duplicateII(&mut nums);
-        assert_eq!(k, 5 as usize);
+        assert_eq!(k, 5);
         for i in 0..k {
-            assert_eq!(nums[i as usize], expect_vec[i as usize])
+            assert_eq!(nums[i], expect_vec[i])
         }
     }
     #[test]
@@ -70,5 +71,12 @@ mod tests {
         rotare_array(&mut nums, k);
         println!("{:?}", nums);
         assert_eq!(nums, vec![2, 1])
+    }
+
+    #[test]
+    fn test_two_sum() {
+        let nums = vec![2, 7, 11, 15];
+        let target = 9;
+        assert_eq!(two_sum(nums, target).unwrap(), vec![0, 1])
     }
 }

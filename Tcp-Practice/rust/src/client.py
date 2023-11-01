@@ -1,5 +1,4 @@
 import json
-import pickle
 import socket
 
 # Configuración del cliente
@@ -20,10 +19,10 @@ class User:
 data = {
     "nombre": "Juan",
     "edad": 30,
-    "ciudad": "Ejemploville"
+    "city": "Ejemploville"
 }
 
-user = User(nombre="saul", edad=13, city="santiago")
+user = User(**data)
 
 json_data = json.dumps(user.__dict__)
 # Conectar al servidor

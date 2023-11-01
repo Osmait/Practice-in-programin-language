@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"reflect"
 	"strconv"
 	"time"
 
@@ -18,15 +19,22 @@ const (
 )
 
 func main() {
-	fmt.Println("hello")
+	var value any
+	value = "Hola"
+	switch value.(type) {
+	case int:
+		fmt.Println("es int ")
+	case string:
+		fmt.Println("Es String ")
+	}
+	rf := reflect.TypeOf(time.Time{})
+	fmt.Println(rf)
 
 	args := os.Args
 
-	fmt.Println(0)
-
 	num, err := strconv.Atoi(args[2])
 	if err != nil {
-		fmt.Println(err.Error())
+		panic(err)
 	}
 
 	readyaml.ReadYAml(num)

@@ -7,3 +7,5 @@ mod remove_duplicateII;
 pub mod remove_element;
 mod rotare_array;
 mod test_problems;
+pub mod twoSum;
+
