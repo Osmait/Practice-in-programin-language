@@ -1,0 +1,5 @@
+{ "Este es un texto de ejemplo" } ['Vim es un editor de texto' ] "muy potente!" Si deseas hacer cambios, simplemente presiona 'i' para entrar en modo de inserción.
+Luego, para volver al modo normal, presiona 'Esc'. Puedes moverte por el texto utilizando las teclas 'h', 'j', 'k' y 'l'.
+Además, puedes usar los comandos de movimiento como 'w' para avanzar palabra por palabra y 'b' para retroceder.
+Otras operaciones útiles incluyen 'gg' para ir al principio del archivo y 'G' para ir al final.
+¡Vim es un editor altamente configurable! Puedes personalizarlo a tu gusto.
