@@ -1,5 +1,5 @@
-mod codeWars;
 mod code_signals;
+mod code_wars;
 mod data_structure;
 mod desing_patters;
 mod leetcode;
