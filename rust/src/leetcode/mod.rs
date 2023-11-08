@@ -1,3 +1,4 @@
+mod best_time_to_buy;
 pub mod contain_duplicate;
 pub mod is_anagram;
 mod majority_element;
@@ -8,4 +9,3 @@ pub mod remove_element;
 mod rotare_array;
 mod test_problems;
 pub mod twoSum;
-
