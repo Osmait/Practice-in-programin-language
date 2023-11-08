@@ -1,6 +1,17 @@
 package leetcode
 
-import "testing"
+import (
+	"testing"
+)
+
+func TestMaxProfit(t *testing.T) {
+	prices := []int{7, 1, 5, 3, 6, 4}
+	result := MaxProfile(prices)
+	expeted := 5
+	if result != expeted {
+		t.Errorf("Expected %v ,but got %v", expeted, result)
+	}
+}
 
 func TestMergeSorted(t *testing.T) {
 	nums1 := []int{1, 2, 3, 0, 0, 0}
@@ -17,6 +28,7 @@ func TestMergeSorted(t *testing.T) {
 		}
 	}
 }
+
 func TestRemoveElement(t *testing.T) {
 	nums := []int{3, 2, 2, 3}
 	val := 3
@@ -30,8 +42,8 @@ func TestRemoveElement(t *testing.T) {
 			t.Errorf("Expected %v,but got %v", nums[k], nums[i])
 		}
 	}
-
 }
+
 func TestRemoveDuplicateII(t *testing.T) {
 	nums := []int{1, 1, 1, 2, 2, 3}
 
@@ -47,5 +59,4 @@ func TestRemoveDuplicateII(t *testing.T) {
 			t.Errorf("Expected %v,but got %v", excetedArray[i], nums[i])
 		}
 	}
-
 }
