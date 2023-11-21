@@ -22,7 +22,7 @@ def majorityElement2(nums: list[int]) -> int:
     for n in nums:
         if count == 0:
             res = n
-        count += (1 if n == res else -1)
+        count += 1 if n == res else -1
     return res
 
 
@@ -37,8 +37,10 @@ def majorityElement3(nums: list[int]) -> int:
     return res
 
 
-class TestMajorityElement(unittest.TestCase):
+n = majorityElement2([2, 2, 3])
 
+
+class TestMajorityElement(unittest.TestCase):
     def TestMajorityElement1(self):
         n = majorityElement([3, 3, 4, 4, 3])
         self.assertEqual(n, 3)

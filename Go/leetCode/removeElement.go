@@ -7,7 +7,6 @@ func RemoveElement(nums []int, val int) int {
 			nums[k] = nums[i]
 			k++
 		}
-
 	}
 	return k
 }

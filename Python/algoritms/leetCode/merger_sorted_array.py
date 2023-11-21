@@ -2,8 +2,8 @@ import unittest
 
 
 def merger_sorted_array(nums1: list[int], m: int, nums2: list[int], n: int) -> None:
-    p1 = m-1
-    p2 = m-1
+    p1 = m - 1
+    p2 = m - 1
     p = m + n - 1
 
     while p1 >= 0 and p2 >= 0:
@@ -15,11 +15,10 @@ def merger_sorted_array(nums1: list[int], m: int, nums2: list[int], n: int) -> N
             p2 -= 1
         p -= 1
 
-    nums1[:p2+1] = nums2[:p2+1]
+    nums1[: p2 + 1] = nums2[: p2 + 1]
 
 
 class Test(unittest.TestCase):
-
     def test_merge(self):
         nums1 = [1, 2, 3, 0, 0, 0]
         m = 3
