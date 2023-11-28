@@ -3,7 +3,7 @@ function sum(a: number, b: number): number {
 }
 
 function rest(a: number, b: number): number {
-  return a - b
+  return a - b;
 }
 const x: number = 5;
 const y: number = 10;

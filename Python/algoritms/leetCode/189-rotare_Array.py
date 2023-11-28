@@ -17,7 +17,6 @@ def reverse(nums, start, end) -> None:
 
 
 class TestRotareArray(unittest.TestCase):
-
     def test_rotate(self):
         nums = [1, 2]
         k = 3

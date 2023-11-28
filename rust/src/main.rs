@@ -3,9 +3,9 @@ mod code_wars;
 mod data_structure;
 mod desing_patters;
 mod leetcode;
+mod search;
 mod sort;
 mod utils;
-
 fn main() {
     println!("hello")
     // let resp = reqwest::get("https://httpbin.org/ip")

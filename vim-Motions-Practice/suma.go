@@ -10,9 +10,9 @@ import (
 )
 
 func main() {
-	x := 5
+	x := 0
 	y := 10
-	input()
+
 	fmt.Printf("La suma es: %d\n", sum(x, y))
 	fetch("https://dummyjson.com/products/1")
 }
@@ -42,6 +42,6 @@ func input() {
 	if err != nil {
 		return
 	}
-	text := strings.TrimSpace(inp)
-	fmt.Print(text)
+	strings.TrimSpace(inp)
+	fmt.Print(inp)
 }
