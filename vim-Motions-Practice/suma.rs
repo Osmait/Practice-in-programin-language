@@ -1,26 +1,16 @@
 fn main() {
-    let mut x = 5;
-    let y = 10;
+    let string1 = String::from("long string is long");
 
-    println!("La suma es: {}", sum(x, y));
-     
-}
-fn some_function(arg: some::long::type) -> Result<some::long::type>{
-}
-fn some_sume(a:i32)->i32{
-    if a == a {
-            
-    return a + a 
+    {
+        let string2 = String::from("xyz");
+        let result = longest(string1.as_str(), string2.as_str());
+        println!("The longest string is {}", result);
     }
-    a   
-}    
-fn resta(a: i32, b: i32) -> i32 {
-    a - b
 }
-fn sum(a: i32, b: i32) -> i32 {
-    a + b
-}
-
-fn multiplay(a: i32, b: i32) -> i32 {
-    a * b
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
 }

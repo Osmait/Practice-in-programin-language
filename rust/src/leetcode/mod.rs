@@ -2,6 +2,7 @@ mod best_time_to_buy;
 pub mod contain_duplicate;
 pub mod is_anagram;
 mod majority_element;
+mod max_profile_two;
 pub mod merge_sorted_array;
 mod remove_duplicate;
 mod remove_duplicateII;
