@@ -10,58 +10,81 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import leetCode.Fetch;
-import sort.Sorting;
-
 public class Main {
   public static void main(String[] args) {
 
-    List<Integer> listInt = new ArrayList<>();
-    listInt.add(10);
-    listInt.add(5);
-    listInt.add(3);
-    listInt.add(1);
-
-    System.out.println(Sorting.mergeSort(listInt));
-
-    // Fetch fetch = new Fetch();
-
-    // File file = new File("Java/leetcode/src/product2.json");
-    // // File file2 = new File("Java/leetcode/src/product2.json");
-
-    // try {
-    // Scanner sc = new Scanner(file);
-    // // StringBuilder info = new StringBuilder();
-    // while (sc.hasNextLine()) {
-    // System.out.println(sc.nextLine());
-    // }
-    // // FileWriter fs = new FileWriter(file2);
-    // // fs.write(fetch.get());
-    // // fs.close();
-    // sc.close();
-    // } catch (Exception e) {
-    // e.printStackTrace();
-    // }
-
+    int[] input = { 1, 2, 3, 0, 0, 0 };
+    int[] nums2 = { 2, 5, 6 };
+    mergeSortedArray(input, 3, nums2, 3);
+    System.out.println(Arrays.toString(input));
   }
 
-  public static int[] topkFrequent(int[] nums ,int k){
-    int[] arr = new int[k];
-    HashMap<Integer,Integer> map = new HashMap<>();
-    for(int num:nums) map.put(num, map.getOrDefault(num,0)+1);
-    PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(
-      (a,b)-> a.getValue() - b.getValue()
-    );
-    for(Map.Entry<Integer,Integer> it: map.entrySet()){
-      pq.add(it);
-      if(pq.size() > k)pq.poll();
+  public static int removeElement(int[] nums, int value) {
+    int K = 0;
+    for (int i = 0; i < nums.length; i++) {
+      if (nums[i] != value) {
+        nums[k] = nums[i];
+        k += 1;
+      }
+      return k;
     }
-     int i = k;
-        while (!pq.isEmpty()) {
-            arr[--i] = pq.poll().getKey();
-        }
-        return arr;
   }
+
+  public static void mergeSortedArray(int[] numbs1, int m, int[] numbs2, int n) {
+    int p1 = m - 1;
+    int p2 = m - 1;
+    int p = m + n - 1;
+    while (p1 >= 0 && p2 >= 0) {
+      if (numbs1[p1] >= numbs2[p2]) {
+        numbs1[p] = numbs1[p1];
+        p1 -= 1;
+      } else {
+
+        numbs1[p] = numbs2[p2];
+        p2 -= 1;
+
+      }
+      p -= 1;
+
+    }
+    System.arraycopy(numbs2, 0, numbs1, 0, p2 + 1);
+
+  }
+
+  public static int maxProfit(int[] prices) {
+    int res = 0;
+    int lowest = prices[0];
+    for (int price : prices) {
+
+      if (price < lowest) {
+        lowest = price;
+
+      }
+      res = Math.max(res, price - lowest);
+
+    }
+    return res;
+  }
+
+  public static int[] topkFrequent(int[] nums, int k) {
+    int[] arr = new int[k];
+    HashMap<Integer, Integer> map = new HashMap<>();
+    for (int num : nums)
+      map.put(num, map.getOrDefault(num, 0) + 1);
+    PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(
+        (a, b) -> a.getValue() - b.getValue());
+    for (Map.Entry<Integer, Integer> it : map.entrySet()) {
+      pq.add(it);
+      if (pq.size() > k)
+        pq.poll();
+    }
+    int i = k;
+    while (!pq.isEmpty()) {
+      arr[--i] = pq.poll().getKey();
+    }
+    return arr;
+  }
+
   public static int[] RunningSum(int[] nums) {
     AtomicInteger sum = new AtomicInteger();
     return Arrays.stream(nums).map(sum::addAndGet).toArray();
@@ -132,22 +155,22 @@ public class Main {
     return res;
   }
 
-  public static void arrayRotare(int[] nums, int k){
+  public static void arrayRotare(int[] nums, int k) {
     int n = nums.length;
-    k =  k % n;
-    reverse(nums, 0, n-1);
-    reverse(nums, 0, k-1);
-    reverse(nums, k, n-1);
+    k = k % n;
+    reverse(nums, 0, n - 1);
+    reverse(nums, 0, k - 1);
+    reverse(nums, k, n - 1);
 
   }
 
-  public static void reverse(int[]nums, int start,int end){
-    while( start < end){
-    int temp = nums[start];
-    nums[start] = nums[end];
-    nums[end] = temp;
-    start++;
-    end--;
+  public static void reverse(int[] nums, int start, int end) {
+    while (start < end) {
+      int temp = nums[start];
+      nums[start] = nums[end];
+      nums[end] = temp;
+      start++;
+      end--;
     }
   }
 

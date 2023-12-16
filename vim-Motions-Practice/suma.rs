@@ -1,16 +1,16 @@
 fn main() {
     let string1 = String::from("long string is long");
-
-    {
-        let string2 = String::from("xyz");
-        let result = longest(string1.as_str(), string2.as_str());
-        println!("The longest string is {}", result);
-    }
+    let result = suma(12, 21);
+    println!("{}", result);
 }
-fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len() {
-        x
-    } else {
-        y
-    }
+
+fn suma(a: i32, b: i32) -> i32 {
+    return a + b;
+}
+fn resta(a: i32, b: i32) {
+    return a - b;
+}
+
+fn multiply(a: i32, b: i32) {
+    return a * b;
 }
