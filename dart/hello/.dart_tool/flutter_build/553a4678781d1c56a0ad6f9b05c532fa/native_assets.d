@@ -1,0 +1,1 @@
+ /home/osmait/ProgramingFiles/Practice/Algoritms/dart/hello/.dart_tool/flutter_build/553a4678781d1c56a0ad6f9b05c532fa/native_assets.yaml: 

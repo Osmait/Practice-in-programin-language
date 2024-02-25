@@ -1,0 +1,4 @@
+#Tue Dec 26 21:07:25 AST 2023
+base.0=/home/osmait/ProgramingFiles/Practice/Algoritms/dart/hello/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
